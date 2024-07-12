@@ -1,0 +1,46 @@
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: grey;
+}
